@@ -1,0 +1,179 @@
+*{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.encabezado{
+    background-color:rgb(21, 133, 21);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    flex: 1; 
+    overflow: auto;
+}
+
+section:last-child {
+    border: none;
+  }
+/*.........BARRA DE NAVEGACIÓN.........*/
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.boton{
+    cursor: grab;
+    transition: all ease-out 60ms;
+}
+
+.boton:hover{
+    padding: 14px;
+}
+
+.boton{
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icono{
+    padding: 15px;
+}
+
+/*........ Nav Cars.........*/
+.navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.car1{
+    background-color:rgb(21, 133, 21);
+    border: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.car2{
+    background-color:rgb(21, 133, 21);
+    border: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.car3{
+    background-color:rgb(21, 133, 21);
+    border: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.car4{
+    background-color:rgb(21, 133, 21);
+    border: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+/*........libros......*/
+.libros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.p1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius:20px;
+}
+
+.p1{
+    cursor: grab;
+    transition: all ease-out 120ms;
+}
+
+.p1:hover{
+    padding: 10px;
+}
+
+/*.........Navs Libros.......*/
+.navslibros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aling{
+    padding: 20px;
+}
+
+.l1{
+    cursor: grab;
+    border: 3px solid black;
+    padding: 5px;
+    text-align:left;
+}
+
+/*......Autor del mes.........*/
+
+.p2{
+    margin: 100px;
+}
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.novela{
+    cursor: grab;
+    transition: all ease-out 120ms;
+}
+
+.novela:hover{
+    padding: 14px;
+}
+
+.autor{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 5px;
+}
+
+.texto{
+    margin: 10px;
+}
+
+/*........PIE DE PÁGINA.......*/
+.pie{
+    background-color: rgb(21, 133, 21) ;
+    color: white;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
